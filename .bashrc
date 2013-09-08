@@ -115,7 +115,7 @@ fi
 
 export EDITOR=vim
 
-for i in $(find ~/.bash.d/ -type f)
+for i in $(find ~/.bashrc.d/ -type f)
 do
   . $i
 done
