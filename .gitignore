@@ -31,3 +31,4 @@ Desktop
 examples.desktop
 .dmrc
 .viminfo
+.vim/.netrwhist
