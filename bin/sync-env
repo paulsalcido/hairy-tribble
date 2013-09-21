@@ -1,0 +1,5 @@
+#! /bin/bash
+
+(cd ~/hairy-tribble && git pull)
+rsync -av --exclude=.git ~/hairy-tribble/ /home/$USER/
+. ~/.bashrc
